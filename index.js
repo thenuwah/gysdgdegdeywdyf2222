@@ -19,7 +19,7 @@ const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
 
-const ownerNumber = ['94761864425']
+const ownerNumber = ['+94729116234']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
@@ -76,16 +76,15 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `🚀 *_PODDA-MD Connected Successfully!_* ✅ 
 
---- *👨‍💻🎉 _Welcome to PODDA-MD!_* 🎉💗 
+--- *👨‍💻🎉 _Welcome to JEST-MD!_* 🎉💗 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
 
-_Thank you for using_ *👨‍💻PODDA-MD💗.*
-_We're here to make your experience enjoyable and seamless._
-_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+_Thank you for using_ *★彡[ᴊᴇꜱᴛᴇʀ-ᴍᴅ]彡★.*
+CONNECTED
 
 *🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
@@ -97,7 +96,7 @@ _*👨‍💻 Enjoy your time with us! 😊*_
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴅᴅᴀ ᴍᴅ*`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/67chv0.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `` }, caption: up })
 
 }
 })
@@ -111,9 +110,9 @@ if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STAT
 await conn.readMessages([mek.key])
 }
 //=========autobio=======//
-if (config.AUTO_BIO === 'true'){
+if (config.AUTO_BIO === 'false'){
                await
-conn.updateProfileStatus(`𝗣𝗢𝗗𝗗𝗔 𝗠𝗗💗 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱➤ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿 ⚡💻`)
+conn.updateProfileStatus(`★彡[ᴊᴇꜱᴛᴇʀ-ᴍᴅ]彡★💗 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱➤ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿 ⚡💻`)
 }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
@@ -179,17 +178,17 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("94718913389")){
+if(senderNumber.includes("94781029321")){
 if(isReact) return
 m.react("👨‍💻")
 }       
  
-if(senderNumber.includes("94775341543")){
+if(senderNumber.includes("94726976376")){
 if(isReact) return
 m.react("👨‍💻")
 }
 
-if(senderNumber.includes("94765527900")){
+if(senderNumber.includes("+94775877546")){
 if(isReact) return
 m.react("💗")
 }
@@ -244,7 +243,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey,SAHAS-MD bot started✅");
+res.send("hey,jester-MD bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
