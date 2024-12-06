@@ -66,7 +66,7 @@ _*🌟 Reply with the Number you want to select*_
 
             const vv = await conn.sendMessage(
                 from,
-                { image: { url: "" }, caption: desc },
+                { image: { url: "https://i.ibb.co/61NN6GJ/b6d8fd95-c7e9-472a-8f0e-2ba9c744b14b.jpg" }, caption: desc },
                 { quoted: mek },
             );
 
