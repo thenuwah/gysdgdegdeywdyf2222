@@ -86,15 +86,10 @@ let up = `🚀 *_PODDA-MD Connected Successfully!_* ✅
 _Thank you for using_ *★彡[ᴊᴇꜱᴛᴇʀ-ᴍᴅ]彡★.*
 CONNECTED
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@programmercyberayesh
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
 
 _*👨‍💻 Enjoy your time with us! 😊*_
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴅᴅᴀ ᴍᴅ*`;
+> *©JESTER-MD*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `` }, caption: up })
 
