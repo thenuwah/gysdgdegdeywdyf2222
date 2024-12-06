@@ -73,7 +73,7 @@ console.log('jester md connected to whatsapp ✅')
 
 let up = `JESTER MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/61NN6GJ/b6d8fd95-c7e9-472a-8f0e-2ba9c744b14b.jpg` }, caption: up })
 
 }
 })
